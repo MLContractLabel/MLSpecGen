@@ -1,9 +1,11 @@
 This is a reproducibility package for our MLSpecGen technique.
+
 Files & Roles (brief)
 
 1) Motivating_Example_Folder
    
 -Motivating_ReadMe.txt- Instructions to run the motivating example.
+
 -gpt_ragtestterminal.js/claude_ragtest_terminal.js
   Main runners. Fetches post, retrieves examples, calls GPT/Claude, parses <BUGGY_CODE> / <FIXED_CODE>, writes outputs.
 
@@ -26,6 +28,8 @@ Files & Roles (brief)
 2) Data Preparation scripts
 
 generateseen.js- Script which automatically creates seen examples.
+
 filterunseen2-   Script which automatically creates unseen dataset.
+
 embedder.js-     Script which creates ebeddings of seen and unseen posts.
 
